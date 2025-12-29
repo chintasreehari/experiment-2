@@ -48,4 +48,4 @@ System.out.println("int three result:"+result3);
 }
 ```
 ## output
-![OUTPUT](2b)
+![OUTPUT of 2b](2b.png)
