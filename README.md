@@ -49,3 +49,30 @@ System.out.println("int three result:"+result3);
 ```
 ## output
 ![OUTPUT of 2b](2b.png)
+
+## experiment 2c
+## topic :- Student
+## source code
+```java
+public class Student{
+String name;
+int age;
+int marks;
+Student(String n,int a,int m){
+name = n;
+age = a;
+marks = m;
+}
+void display(){
+System.out.println("name:"+name);
+System.out.println("age:"+age);
+System.out.println("marks:"+marks);
+}
+public static void main(String[] args){
+Student s1=new Student("Alice",20,85);
+s1.display();
+}
+}
+```
+# output
+![output of 2c](2c.png)
