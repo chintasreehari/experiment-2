@@ -19,3 +19,31 @@ System.out.println("Addition result:"+obj.add(10,20));
 }
 }
 ```
+## output:
+
+
+## experiment 2b
+## toipc :- overloding
+## souce code
+```java
+class Overloding{
+int add(int a,int b){
+return a+b;
+}
+double add(double a, double b){
+return a+b;
+}
+int add(int a,int b, int c){
+return a+b+c;
+}
+public static void main(String[] args){
+Overloding obj =new Overloding();
+int result1=obj.add(10,20);
+double result2=obj.add(10.5,20.5);
+int result3=obj.add(5,20,10);
+System.out.println("int result:"+result1);
+System.out.println("double result:"+result2);
+System.out.println("int three result:"+result3);
+}
+}
+```
